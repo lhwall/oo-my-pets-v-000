@@ -1,10 +1,11 @@
 class Owner
   # code goes here
+  attr_accessor pets
   @@all = []
   
   def initialize(name = nil)
     @name=name
-    @pets = 
+    @pets = {fishes: [], cats: [], dogs: []}
     self.save
   end
    
