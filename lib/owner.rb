@@ -4,6 +4,7 @@ class Owner
   
   def initialize(name = nil)
     @name=name
+    self.save
   end
    
   def self.create(name = nil) 
