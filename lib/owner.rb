@@ -72,6 +72,7 @@ class Owner
     make_pets_mood(:dogs, "nervous")
     make_pets_mood(:cats, "nervous")
     make_pets_mood(:fishes, "nervous")
+    @pets.clear
   end
 
 end
