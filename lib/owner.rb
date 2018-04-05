@@ -1,7 +1,7 @@
 class Owner
   # code goes here
-  attr_accessor pets
-  attr_reader species
+  attr_accessor :pets, :name
+  attr_reader :species
   @@all = []
   
   def initialize(name = nil)
@@ -38,6 +38,8 @@ class Owner
     @pets:cats <<
   end
   
+  def say_name
+    
     
 
 end
