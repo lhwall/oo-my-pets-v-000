@@ -71,7 +71,7 @@ class Owner
   def sell_pets
     make_pets_mood(:dogs, "nervous")
     make_pets_mood(:cats, "nervous")
-    make_pets_mood(:fish, "nervous")
+    make_pets_mood(:fishes, "nervous")
   end
 
 end
