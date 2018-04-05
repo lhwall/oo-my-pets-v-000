@@ -38,6 +38,11 @@ class Owner
     @pets[:cats] << self
   end
   
+  def buy_fish(name)
+    new_fish = Fish.new 
+    @pets[:fishes] << self
+  end
+  
   def say_species
     "I am a #{self.species}."
   end 
