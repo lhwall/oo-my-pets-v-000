@@ -5,9 +5,9 @@ class Owner
   @@all = []
   
   def initialize(name = nil)
-    @name name
+    @name= name
     @pets= {fishes: [], cats: [], dogs: []}
-    #@species= human
+    @species= "human"
     self.save
   end
    
