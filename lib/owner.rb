@@ -74,5 +74,8 @@ class Owner
     make_pets_mood(:fishes, "nervous")
     @pets.clear
   end
+  
+  def list_pets
+    
 
 end
