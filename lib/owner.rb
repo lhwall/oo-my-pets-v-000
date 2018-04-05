@@ -9,7 +9,8 @@ class Owner
    
   def create(name = nil) 
     new_owner = self.new 
-    new_owner.save 
+    new_owner.save
+    new_owner
   end 
   
   def save 
