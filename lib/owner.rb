@@ -38,8 +38,8 @@ class Owner
     @pets:cats <<
   end
   
-  def say_name
-    
-    
+  def say_species
+    "I am a #{self.species}."
+  end 
 
 end
