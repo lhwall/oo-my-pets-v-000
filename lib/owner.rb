@@ -54,6 +54,7 @@ class Owner
   
   def make_pets_happy(pet)
     @pets[pet].each {|pet| pet.mood = "happy"}
+  end
     
   def walk_dogs
    make_pets_happy(:dogs)
