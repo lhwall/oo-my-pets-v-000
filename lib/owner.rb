@@ -18,6 +18,10 @@ class Owner
   def self.clear_all 
     @@all.clear 
   end
+  
+  def self.count 
+    @all.size 
+  end 
     
 
 end
