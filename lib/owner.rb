@@ -3,7 +3,8 @@ class Owner
   @@all = []
   
   def initialize(name = nil)
-    @name=name 
+    @name=name
+    self.save
   end
    
   def create(name = nil) 
