@@ -52,8 +52,15 @@ class Owner
     "I am a #{self.species}."
   end 
   
+  def make_pets_happy(pet)
+    @pets[:]
+    
   def walk_dogs
     @pets[:dogs].each {|dog| dog.mood = "happy"}
+  end
+  
+  def play_with_cats
+    @pets[:cats].each {|cat| dog.mood = "happy"}
   end
 
 end
