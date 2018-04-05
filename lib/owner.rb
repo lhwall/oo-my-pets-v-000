@@ -7,7 +7,7 @@ class Owner
   def initialize(name = nil)
     @name name
     @pets= {fishes: [], cats: [], dogs: []}
-    @species= "human"
+    @species= human
     self.save
   end
    
