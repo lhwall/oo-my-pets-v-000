@@ -31,6 +31,10 @@ class Owner
     @@all 
   end
   
+  def buy_cat(name)
+    new_cat = Cat.new 
+    @pets:cats <<
+  end
   
     
 
